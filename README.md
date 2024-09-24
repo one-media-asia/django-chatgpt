@@ -18,18 +18,19 @@ python -m venv venv
 2. Activate the virtual environment
 From the root directory, run:
 
-On macOS:
+With the cloned directory -- venv -- use:
 
 source venv/bin/activate
 
-On Windows:
-
-venv\scripts\activate
 
 3. Install required dependencies
 From the root directory, run:
 
-pip3 install django-crispy-forms
+pip3 install --
+
+django-crispy-forms
+crispy_bootstrap4
+fontawesomefree
 
 4. Run migrations
 From the root directory, run:
