@@ -1,6 +1,6 @@
 Django CRM / Bootstrap / Bootswatch / SQLite </br>
 
-This project was created using ChatGpt prompts, the only exception being the theme.</br>
+This project was created using ChatGpt prompts, the only exception being the theme.</br></br>
 <img src="FireShot Capture 002 - CRM - Customer List - 127.0.0.1.png" />
 
 <img src="https://github.com/rocketasia/Django-Chat-crm/assets/74543570/9619bb9d-d81f-4fc3-b478-3c3741946340" />
