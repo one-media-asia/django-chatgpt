@@ -28,8 +28,8 @@ From the root directory, run:
 
 pip3 install --
 
-</b>django-crispy-forms
-crispy_bootstrap4
+django-crispy-forms</br>
+crispy_bootstrap4</br>
 fontawesomefree
 
 4. Run migrations
