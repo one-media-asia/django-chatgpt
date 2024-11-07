@@ -28,11 +28,11 @@ source venv/bin/activate
 3. Install required dependencies
 From the root directory, run:
 
-pip3 install --
+pip3 or pip - whichever works.
 
-django-crispy-forms</br>
-crispy_bootstrap4</br>
-fontawesomefree
+pip3 install django-crispy-forms</br>
+pip3 install crispy_bootstrap4</br>
+pip3 install fontawesomefree
 
 4. Run migrations
 From the root directory, run:
@@ -46,17 +46,14 @@ From the root directory, run:
 python manage.py createsuperuser
 When prompted, enter a username, email, and password.
 
-Run the application
-From the root directory, run:
+Run the application:
 
 python3 manage.py runserver
-
-Run the tests
-From the root directory, run:
-
 
 View the application
 Go to http://127.0.0.1:8000/ to view the application.
 
 Copyright and License<br>
 Copyright © 2024 One Media Asia Co, Ltd. Code released under the MIT license.
+
+Have fun..Peter G
