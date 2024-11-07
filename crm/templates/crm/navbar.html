@@ -10,11 +10,11 @@
           {% comment %} <a class="nav-link" href={% url 'crm:customer_list' %} >Customers </a> {% endcomment %}
         </li>
       <li class="nav-item">
-          <a class="btn btn-primary" href="/customer/add/">New Customer&nbsp;&nbsp;<span class="fa-solid fa-user-pen"><span></a>
+          <a class="btn btn-info " href="/customer/add/">New Customer&nbsp;&nbsp;<span class="fa-solid fa-user-pen"><span></a>
         </li> &nbsp;&nbsp;
        <li class="nav-item">
         <form action="{% url 'logout' %}" method="post">
-          {% csrf_token %} &nbsp;&nbsp; <button class="btn btn-primary" type="submit">&nbsp;&nbsp;Logout&nbsp;&nbsp;<i class="fa-solid fa-wheelchair-move"></i></button>
+          {% csrf_token %} &nbsp;&nbsp; <button class="btn btn-info" type="submit">&nbsp;&nbsp;Logout&nbsp;&nbsp;<i class="fa-solid fa-wheelchair-move"></i></button>
       </form>
    
         </li>
