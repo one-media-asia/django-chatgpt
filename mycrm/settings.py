@@ -142,6 +142,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Add at the bottom of the file
+# Add at the bottom of the file test
 LOGIN_REDIRECT_URL = 'crm:customer_list'
 LOGOUT_REDIRECT_URL = '/accounts/login'
