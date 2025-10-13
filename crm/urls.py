@@ -5,6 +5,6 @@ app_name = 'crm'
 
 urlpatterns = [
     path('', views.customer_list, name='customer_list'),
-    # Add more paths for create, edit, and delete 
+    # Add more paths for create, edit, and 
 ]
  
