@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+et<!DOCTYPE html>
 <html>
 <head>
 
@@ -72,10 +72,10 @@
                    
           
             <td></td>
-         <td> <a class="btn btn-warning me-1" href="{% url 'edit_customer' customer.id %}"test><span class="fa-solid fa-pen-to-square fa-lg"></span></a><form action="{% url 'delete_customer' customer.id %}" method="post" onsubmit="return confirm('Are you sure?');">
+         <td> <a class="btn btn-warning me-1" href="{% url 'edit_customer' customer.id %}"Edit<span class="fa-solid fa-pen-to-square fa-lg"></span></a><form action="{% url 'delete_customer' customer.id %}" method="post" onsubmit="return confirm('Are you sure?');">
             {% csrf_token %}
           </td>
-          <td> <button class="btn btn-trash" name="delete"><span class="fa-solid fa-trash-can fa-lg"></span></button></td>
+          <td> <button class="btn btn-trash" name="delete">Delete<span class="fa-solid fa-trash-can fa-lg"></span></button></td>
         </form>
           
             {% endfor %} 
