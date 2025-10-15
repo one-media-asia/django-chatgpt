@@ -29,9 +29,9 @@ SECRET_KEY = 'django-insecure-5bku$2&o_o0(_zkpa-qvy25rix4^k8t70#)uwwmf-v#a#tqwi2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'https://crm.onemedia.asia',]
+ALLOWED_HOSTS = ['*', 'https://next.onemedia.asia',]
 
-CSRF_TRUSTED_ORIGINS = ['https://crm.onemedia.asia']
+CSRF_TRUSTED_ORIGINS = ['https://next.onemedia.asia']
 
 
 # Application definition
