@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'crm',
     "crispy_forms",
     "crispy_bootstrap4",'fontawesomefree',
+    "gunicorn",
     #  'uni_form',
    
 ]
